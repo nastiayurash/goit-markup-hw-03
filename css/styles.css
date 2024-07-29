@@ -18,6 +18,14 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
 ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -73,6 +81,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .nav-list:hover,
 .nav-list:focus {
@@ -138,15 +147,6 @@ header {
 .custom-button:focus {
   background: #404bbf;
 }
-.features-header {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  visibility: hidden;
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -187,13 +187,6 @@ header {
   padding: 120px 0;
 }
 .team-header {
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: #2e2f42;
   margin-bottom: 72px;
 }
 .ul-team {
@@ -230,13 +223,6 @@ header {
   padding-bottom: 120px;
 }
 .portfolio-header {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  text-transform: capitalize;
   margin-bottom: 72px;
 }
 .ul-portfolio {
