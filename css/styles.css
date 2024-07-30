@@ -50,11 +50,7 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  width: 115px;
-  height: 24px;
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .logo-text {
   font-family: "Raleway", sans-serif;
@@ -76,6 +72,7 @@ header {
   margin-right: 332px;
 }
 .nav-list {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -198,7 +195,6 @@ header {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
-  margin-bottom: 120px;
 }
 .team-desc {
   padding: 32px 0;
@@ -217,7 +213,6 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding: 8px 0;
 }
 .portfolio-section {
   padding-top: 120px;
@@ -248,15 +243,12 @@ header {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  padding-left: 16px;
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 32px;
-  padding-left: 16px;
 }
 .site-footer {
   background: #2e2f42;
